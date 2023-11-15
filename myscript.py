@@ -1,3 +1,3 @@
 import os
-os.system('git bisect start c0509c5acef90386f59d729cfcb4c1c3ae03e3d0 a9f20e8a511665d81967342e7829e737395944d3')
+os.system('git bisect start 9c611f83bf13ece1ce57195d0e8f63f70fef46af e4cfc6f77ebbe2e23550ddab682316ab4ce1c03c')
 os.system('git bisect run python manage.py test')
